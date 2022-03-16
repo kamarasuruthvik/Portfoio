@@ -1,11 +1,65 @@
 *{
     margin:0px;
     box-sizing: border-box;
+    
 }
 body{
+    font-family:'Space Mono';
     padding: 20px;
-    background-color: turquoise;
+    background-color: #E0F6FF;
     display:flex;
     align-items: center;
     flex-direction: column;
+}
+.container{
+    max-width:800px;
+    width: 100%;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.container h2{
+    margin:10px 0px;
+    font-size:16px;
+    font-weight: 400;
+}
+.container p{
+    width:60%;
+    font-size: 14px;
+    margin:0px 0px 20px 0px;
+    color:rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+}
+.container img{
+    border-radius: 50%;
+    width:96px;
+    height: 96px;
+    margin:10px;
+}
+
+.container .button-group{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    padding:5px 15px;
+}
+.container .button-group button{
+    width:100%;
+    height: 40px;
+    margin:5px;
+    background-color:#E0F6FF;
+    border-radius:20px;
+    border:1px solid #BCCFD7;
+}
+
+.container .button-group button:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.container .button-group a{
+    font-family:'Space Mono';
+    text-decoration: none;
+    font-size: 14px;
+    color: inherit;
 }
