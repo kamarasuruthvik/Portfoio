@@ -1,0 +1,29 @@
+{
+  "name": "ruthvik-portfolio",
+  "version": "1.0.0",
+  "description": "Ruthvik Kamarasu's portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass --include-path scss ./styles.scss ./minified.css",
+    "watch": "nodemon -e scss -x 'npm run css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamarasuruthvik/Portfoio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "vanilla"
+  ],
+  "author": "Ruthvik.Kamarasu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamarasuruthvik/Portfoio/issues"
+  },
+  "homepage": "https://github.com/kamarasuruthvik/Portfoio#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.22"
+  }
+}
